@@ -12,6 +12,8 @@ public class ObjectTest01 {
 		
 		System.out.println(p);
 		System.out.println(p.toString());	// getClass() + "@" + hashCode()-16진법
+		
+		
 	}
 
 }

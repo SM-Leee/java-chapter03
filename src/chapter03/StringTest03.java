@@ -45,6 +45,16 @@ public class StringTest03 {
 			sb2.append(i);
 		}
 		
+		//format
+		String name = "둘리";
+		int score = 100;
+		
+		System.out.println("둘리님의 점수는 100점입니다.");
+		System.out.println(name+"님의 점수는 "+score+"점입니다.");
+		String str3 = String.format("%s님의 점수는 %d점입니다.",name,score);
+		System.out.println(str3);
+		
+		
 		
 		
 	}

@@ -44,6 +44,7 @@ public class PhoneList02 {
 			if(scanner != null) {
 				scanner.close();
 			}
+			//Scanner 안에는 IOException이 포함되어 있기때문에 try/catch 를 달아줄 필요성은 없다.
 		}
 	}
 
